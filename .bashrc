@@ -116,7 +116,7 @@ PS1='\w\$'
 alias mv='mv -i'
 alias rm='rm -I'
 alias cp='cp -i'
-alias vgxp='javaws ~/g2.jnlp'
+# alias vgxp='javaws ~/g2.jnlp'
 alias omake='omake -P --verbose'
 alias sl='ls'
 
