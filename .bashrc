@@ -112,14 +112,18 @@ PS1='\w\$'
 # source /opt/intel/ipp/bin/ippvars.sh ia32
 
 
-
+#my aliases
 alias mv='mv -i'
 alias rm='rm -I'
 alias cp='cp -i'
-# alias vgxp='javaws ~/g2.jnlp'
+alias vgxp='javaws ~/g2.jnlp'
 alias omake='omake -P --verbose'
 alias sl='ls'
+alias mendeley='~/applications/mendeleydesktop/bin/mendeleydesktop'
+alias lgdb='libtool --mode=execute gdb'
 
+
+#PATH to texlive2011
 export PATH=/usr/local/texlive/2011/bin/x86_64-linux:$PATH
 export MANPATH=/usr/local/texlive/2011/texmf/doc/man:$MANPATH
 export INFOPATH=/usr/local/texlive/2011/texmf/doc/info:$INFOPATH
