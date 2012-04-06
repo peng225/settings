@@ -1,0 +1,75 @@
+Host 133.11.58.70
+LocalForward 5281 vdec-cad1:5281
+LocalForward 10001 vdec-cad1:5280
+RemoteForward 10460 vdec-cad1:5281
+
+Host kiwi
+     HostName kiwi.logos.ic.i.u-tokyo.ac.jp
+     User hayashi
+
+Host minnie
+     HostName minnie.logos.ic.i.u-tokyo.ac.jp
+     User hayashi
+
+Host tuna
+     HostName tuna.logos.ic.i.u-tokyo.ac.jp
+     User hayashi
+
+Host tako
+     HostName tako.logos.ic.i.u-tokyo.ac.jp
+     User hayashi
+
+Host huscs000
+     HostName huscs000.iic.hokudai.ac.jp
+     User hayashi
+
+Host hongo400
+     HostName hongo400.logos.ic.i.u-tokyo.ac.jp 
+     User hayashi
+
+Host tsukuba100
+     HostName tsukuba100.intrigger.omni.hpcc.jp 
+     User hayashi
+
+Host hosei001
+     HostName hosei001.intrigger.cis.k.hosei.ac.jp
+     User hayashi
+
+Host maxwell
+     HostName maxwell.ee.t.u-tokyo.ac.jp
+     Port 24816
+     User shayashi
+
+Host bell
+     HostName bell.ee.t.u-tokyo.ac.jp
+     User shayashi
+
+Host tesla
+     HostName tesla.ee.t.u-tokyo.ac.jp
+     Port 24816
+     User shayashi
+
+Host fleming
+     HostName fleming.ee.t.u-tokyo.ac.jp
+     User shayashi
+
+Host escargot
+     HostName escargot.ee.t.u-tokyo.ac.jp
+     Port 24816
+     User shayashi
+
+Host milkyway
+     HostName milkyway.eidos.ic.i.u-tokyo.ac.jp
+     User hayashi
+
+Host milkyway-mail
+     HostName milkyway-mail.eidos.ic.i.u-tokyo.ac.jp
+     User hayashi
+
+Host milkyway-ns
+     HostName milkyway-ns.eidos.ic.i.u-tokyo.ac.jp
+     User hayashi
+
+Host lagoon
+     HostName lagoon.eidos.ic.i.u-tokyo.ac.jp
+     User hayashi
