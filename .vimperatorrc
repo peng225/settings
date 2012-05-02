@@ -3,5 +3,5 @@ map k 3<C-y>
 noremap h gT
 noremap l gt
 
-set complete=slf
+set complete=sl
 
