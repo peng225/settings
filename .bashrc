@@ -125,3 +125,4 @@ alias lgdb='libtool --mode=execute gdb'
 export PATH=/usr/local/texlive/2011/bin/x86_64-linux:$PATH
 export MANPATH=/usr/local/texlive/2011/texmf/doc/man:$MANPATH
 export INFOPATH=/usr/local/texlive/2011/texmf/doc/info:$INFOPATH
+export TEXMFHOME=~/.texmf:$TEXMFHOME
