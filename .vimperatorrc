@@ -5,5 +5,5 @@ noremap l gt
 
 set complete=sl
 
-set hintchars=ejfkdlsuti
+set hintchars=gjfkdlsah
 
