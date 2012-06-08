@@ -73,3 +73,7 @@ Host milkyway-ns
 Host lagoon
      HostName lagoon.eidos.ic.i.u-tokyo.ac.jp
      User hayashi
+
+Host oakleaf
+     HostName oakleaf-fx.cc.u-tokyo.ac.jp
+     User c64009
