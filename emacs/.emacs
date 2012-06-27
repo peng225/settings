@@ -111,3 +111,11 @@
 (add-hook 'c++-mode-hook
           '(lambda ()
              (flymake-mode t)))
+
+;; fullscreen
+(defun toggle-fullscreen ()
+  (interactive)
+  (set-frame-parameter nil 'fullscreen (if (frame-parameter nil 'fullscreen)
+                                           nil
+                                           'maximized)))
+(global-set-key [(meta return)] 'toggle-fullscreen) 
