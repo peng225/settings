@@ -118,8 +118,8 @@ alias rm='rm -I'
 alias cp='cp -i'
 alias vgxp='javaws ~/g2.jnlp'
 alias sl='ls'
-alias lgdb='libtool --mode=execute gdb'
 alias sdp='ssh -D localhost:8080'
+alias valgrind='valgrind -v --leak-check=full'
 
 #PATH to texlive2011
 export PATH=/usr/local/texlive/2011/bin/x86_64-linux:$PATH
