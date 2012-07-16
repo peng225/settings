@@ -118,4 +118,4 @@
   (set-frame-parameter nil 'fullscreen (if (frame-parameter nil 'fullscreen)
                                            nil
                                            'maximized)))
-(global-set-key [(meta return)] 'toggle-fullscreen) 
+(global-set-key [(meta j)] 'toggle-fullscreen) 
