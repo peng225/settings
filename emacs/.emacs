@@ -122,9 +122,10 @@
 
 ;; font
 (cond
-(window-system (set-default-font "Takao Pゴシック")
+(window-system (set-default-font "Takaoゴシック-12")
 (set-fontset-font
 (frame-parameter nil 'font)
 'japanese-jisx0208
-'("Takao Pゴシック" . "unicode-bmp")
+'("Takaoゴシック" . "unicode-bmp")
 )))
+
