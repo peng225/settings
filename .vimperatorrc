@@ -1,9 +1,14 @@
 map j 3<C-e>
 map k 3<C-y>
+
 imap <C-h> <BS>
 imap <C-d> <DEL>
 imap <C-f> <RIGHT>
 imap <C-b> <LEFT>
+imap <C-p> <UP>
+imap <C-n> <DOWN>
+imap <C-j> <RETURN>
+
 cmap <C-h> <BS>
 cmap <C-d> <DEL>
 cmap <C-f> <RIGHT>

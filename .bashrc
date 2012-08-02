@@ -122,7 +122,7 @@ alias sdp='ssh -D localhost:8080'
 alias valgrind='valgrind -v --leak-check=full'
 
 #PATH to texlive2011
-export PATH=/usr/local/texlive/2011/bin/x86_64-linux:$PATH
+export PATH=/usr/share/jumpshot/bin:/usr/local/texlive/2011/bin/x86_64-linux:$PATH
 export MANPATH=/usr/local/texlive/2011/texmf/doc/man:$MANPATH
 export INFOPATH=/usr/local/texlive/2011/texmf/doc/info:$INFOPATH
 export TEXMFHOME=~/.texmf:$TEXMFHOME

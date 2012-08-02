@@ -43,9 +43,9 @@
 ;;                 
 (setq inhibit-startup-message t)
 
-;;                
-(set-frame-height (next-frame) 32)
-(set-frame-width (next-frame) 80)
+;; ;;                
+;; (set-frame-height (next-frame) 32)
+;; (set-frame-width (next-frame) 80)
 
 ;;      
 (setq load-path (cons "~/.emacs.d" load-path))
@@ -118,4 +118,13 @@
   (set-frame-parameter nil 'fullscreen (if (frame-parameter nil 'fullscreen)
                                            nil
                                            'maximized)))
-(global-set-key [(meta j)] 'toggle-fullscreen) 
+(global-set-key [(meta j)] 'toggle-fullscreen)
+
+;; font
+(cond
+(window-system (set-default-font "Takao Pゴシック")
+(set-fontset-font
+(frame-parameter nil 'font)
+'japanese-jisx0208
+'("Takao Pゴシック" . "unicode-bmp")
+)))
