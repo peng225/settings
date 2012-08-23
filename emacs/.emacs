@@ -45,7 +45,7 @@
 
 ;; ;;                
 ;; (set-frame-height (next-frame) 32)
-(set-frame-width (next-frame) 40)
+;; (set-frame-width (next-frame) 40)
 
 ;;      
 (setq load-path (cons "~/.emacs.d" load-path))
@@ -129,3 +129,8 @@
 '("Takaoゴシック" . "unicode-bmp")
 )))
 
+
+;; redo+
+(require 'redo+)
+(when (require 'redo+ nil t)
+  (define-key global-map (kbd "C-.") 'redo))

@@ -27,6 +27,10 @@ Host hongo400
      HostName hongo400.logos.ic.i.u-tokyo.ac.jp 
      User hayashi
 
+Host hongo200
+     HostName hongo200.logos.ic.i.u-tokyo.ac.jp 
+     User hayashi
+
 Host tsukuba100
      HostName tsukuba100.intrigger.omni.hpcc.jp 
      User hayashi
