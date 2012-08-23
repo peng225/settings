@@ -45,7 +45,7 @@
 
 ;; ;;                
 ;; (set-frame-height (next-frame) 32)
-;; (set-frame-width (next-frame) 80)
+(set-frame-width (next-frame) 40)
 
 ;;      
 (setq load-path (cons "~/.emacs.d" load-path))
