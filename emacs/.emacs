@@ -60,8 +60,6 @@
 ;;Set C-h as Backspace
 (global-set-key "\C-h" 'delete-backward-char)
 
-(global-set-key "\C-i" 'scroll-down)
-
 
 ;; YaTex     
 ;;        
@@ -97,7 +95,7 @@
 ;; 2: ISO-2022-JP (other default)
 ;; 3: EUC
 ;; 4: UTF-8
-(setq YaTeX-kanji-code 2)
+(setq YaTeX-kanji-code 4)
 
 (require 'flymake)
 
