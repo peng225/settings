@@ -60,6 +60,9 @@
 ;;Set C-h as Backspace
 (global-set-key "\C-h" 'delete-backward-char)
 
+(global-set-key "\C-i" 'scroll-down)
+
+
 ;; YaTex     
 ;;        
 (add-hook 'yatex-mode-hook'(lambda ()(setq auto-fill-function nil)))
