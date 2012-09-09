@@ -135,3 +135,18 @@
 (require 'redo+)
 (when (require 'redo+ nil t)
   (define-key global-map (kbd "C-.") 'redo))
+
+;; Nakatani's wrap-region-by-string function
+;; 選択範囲を任意の文字列で囲む。
+(defun wrap-region-by-string ()
+  (interactive
+   (let ((start-point (region-beginning))
+         (end-point (region-end))
+         (start-str (read-string "Start: " nil 'my-history))
+         (end-str (read-string "End: " nil 'my-history)))
+     (save-excursion
+       (goto-char start-point)
+       (insert start-str)
+       (goto-char (+ end-point (length start-str)))
+       (insert end-str)))))
+(global-set-key "\C-xw" 'wrap-region-by-string)
