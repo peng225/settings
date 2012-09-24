@@ -127,3 +127,5 @@ export PATH=/usr/share/jumpshot/bin:/usr/local/texlive/2011/bin/x86_64-linux:$PA
 export MANPATH=/usr/local/texlive/2011/texmf/doc/man:$MANPATH
 export INFOPATH=/usr/local/texlive/2011/texmf/doc/info:$INFOPATH
 export TEXMFHOME=~/.texmf:$TEXMFHOME
+export EDITOR=vim
+

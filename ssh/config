@@ -81,3 +81,7 @@ Host lagoon
 Host oakleaf
      HostName oakleaf-fx.cc.u-tokyo.ac.jp
      User c64009
+
+Host wheel-exp
+     HostName wheel-exp.elab.ic.i.u-tokyo.ac.jp
+     User shayashi
