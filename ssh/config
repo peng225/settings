@@ -85,3 +85,7 @@ Host oakleaf
 Host wheel-exp
      HostName wheel-exp.elab.ic.i.u-tokyo.ac.jp
      User shayashi
+
+Host leviathan
+     HostName leviathan.logos.ic.i.u-tokyo.ac.jp
+     User member
