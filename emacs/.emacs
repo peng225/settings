@@ -151,7 +151,7 @@
 ;;        (insert end-str)))))
 ;; (global-set-key "\C-xw" 'wrap-region-by-string)
 
-(defun extended-doller ()
+(defun extended-dollar ()
   (interactive
    (let (
          (start-point (region-beginning))
@@ -168,4 +168,4 @@
      )
    )
   )
-(global-set-key "\M-$" 'extended-doller)
+(global-set-key "\M-$" 'extended-dollar)
