@@ -119,7 +119,7 @@ alias rm='rm -I'
 alias cp='cp -i'
 alias vgxp='javaws ~/g2.jnlp'
 alias sl='ls'
-alias sdp='ssh -D localhost:8080'
+alias sdp='ssh -D localhost:10005'
 alias valgrind='valgrind -v --leak-check=full'
 
 #PATH to texlive2011
