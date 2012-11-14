@@ -23,6 +23,10 @@ Host huscs000
      HostName huscs000.iic.hokudai.ac.jp
      User hayashi
 
+Host hosei000
+     HostName hosei000.intrigger.cis.k.hosei.ac.jp
+     User hayashi
+
 Host hongo400
      HostName hongo400.logos.ic.i.u-tokyo.ac.jp 
      User hayashi
@@ -33,10 +37,6 @@ Host hongo200
 
 Host tsukuba100
      HostName tsukuba100.intrigger.omni.hpcc.jp 
-     User hayashi
-
-Host hosei001
-     HostName hosei001.intrigger.cis.k.hosei.ac.jp
      User hayashi
 
 Host maxwell
