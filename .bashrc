@@ -123,7 +123,6 @@ alias sdp='ssh -D localhost:10005'
 alias valgrind='valgrind -v --leak-check=full'
 
 #environment variables
-export HISTIGNORE="ls*"
 export HISTSIZE=1000
 
 #PATH to texlive2011
