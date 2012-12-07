@@ -82,6 +82,10 @@ Host oakleaf
      HostName oakleaf-fx.cc.u-tokyo.ac.jp
      User c64009
 
+Host lec-oakleaf
+     HostName oakleaf-fx.cc.u-tokyo.ac.jp
+     User t65017 
+  
 Host wheel-exp
      HostName wheel-exp.elab.ic.i.u-tokyo.ac.jp
      User shayashi
@@ -89,3 +93,11 @@ Host wheel-exp
 Host leviathan
      HostName leviathan.logos.ic.i.u-tokyo.ac.jp
      User member
+
+Host oooka000
+     HostName oooka000.m.gsic.titech.ac.jp 
+     User hayashi
+
+Host dars
+     HostName dars.eidos.ic.i.u-tokyo.ac.jp
+     User t65017
