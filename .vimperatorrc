@@ -19,5 +19,6 @@ noremap l gt
 
 set complete=sl
 set ignorecase
+set maxitems=12
 
 set hintchars=gjfkdlsa;h
