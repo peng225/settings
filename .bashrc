@@ -123,7 +123,7 @@ alias sdp='ssh -D localhost:10005'
 alias valgrind='valgrind -v --leak-check=full'
 
 #environment variables
-export HISTSIZE=1000
+export HISTSIZE=50000
 
 #PATH to texlive2011
 export PATH=/usr/share/jumpshot/bin:/usr/local/texlive/2011/bin/x86_64-linux:$PATH
