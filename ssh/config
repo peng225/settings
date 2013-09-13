@@ -66,6 +66,11 @@ Host milkyway
      HostName milkyway.eidos.ic.i.u-tokyo.ac.jp
      User hayashi
 
+Host milkywayd
+     HostName milkyway.eidos.ic.i.u-tokyo.ac.jp
+     DynamicForward localhost:10005
+     User hayashi
+
 Host milkyway-mail
      HostName milkyway-mail.eidos.ic.i.u-tokyo.ac.jp
      User hayashi
@@ -90,6 +95,11 @@ Host wheel-exp
      HostName wheel-exp.elab.ic.i.u-tokyo.ac.jp
      User shayashi
 
+Host wheel-expd
+     HostName wheel-exp.elab.ic.i.u-tokyo.ac.jp
+     DynamicForward localhost:10005
+     User shayashi
+
 Host leviathan
      HostName leviathan.logos.ic.i.u-tokyo.ac.jp
      User member
@@ -101,3 +111,14 @@ Host oooka000
 Host dars
      HostName dars.eidos.ic.i.u-tokyo.ac.jp
      User t65017
+
+Host gauss
+     HostName gauss.ee.t.u-tokyo.ac.jp
+     Port 24816
+     User shayashi
+
+Host upload
+     HostName upload.ee.t.u-tokyo.ac.jp
+     Port 24816
+     User shayashi
+
