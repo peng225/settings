@@ -86,6 +86,7 @@ Host lagoon
 Host oakleaf
      HostName oakleaf-fx.cc.u-tokyo.ac.jp
      User c64009
+     IdentityFile ~/.ssh/oakleaf
 
 Host lec-oakleaf
      HostName oakleaf-fx.cc.u-tokyo.ac.jp
