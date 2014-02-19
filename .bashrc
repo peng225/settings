@@ -121,12 +121,13 @@ alias vgxp='javaws ~/g2.jnlp'
 alias sl='ls'
 alias sdp='ssh -D localhost:10005'
 alias valgrind='valgrind -v --leak-check=full'
+alias gp='gnuplot'
 
 #environment variables
 export HISTSIZE=50000
 
 #PATH to texlive2011
-export PATH=/usr/share/jumpshot/bin:/usr/local/texlive/2011/bin/x86_64-linux:$PATH
+export PATH=/usr/share/jumpshot/bin:/usr/local/texlive/2011/bin/x86_64-linux:~/programs/parallel2/sys/inst/g/bin:/home/shinya/applications/android-sdk-linux/tools:$PATH
 export MANPATH=/usr/local/texlive/2011/texmf/doc/man:$MANPATH
 export INFOPATH=/usr/local/texlive/2011/texmf/doc/info:$INFOPATH
 export TEXMFHOME=~/.texmf:$TEXMFHOME

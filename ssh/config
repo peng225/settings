@@ -109,6 +109,10 @@ Host oooka000
      HostName oooka000.m.gsic.titech.ac.jp 
      User hayashi
 
+Host oooka003
+     HostName oooka003.m.gsic.titech.ac.jp 
+     User hayashi
+
 Host dars
      HostName dars.eidos.ic.i.u-tokyo.ac.jp
      User t65017
