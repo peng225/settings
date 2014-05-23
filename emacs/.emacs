@@ -52,9 +52,12 @@
 
 
 ;;     
-(require 'auto-complete)
+;; (require 'auto-complete)
+;; (require 'auto-complete-config)
+;; (global-auto-complete-mode t)
 (require 'auto-complete-config)
-(global-auto-complete-mode t)
+(add-to-list 'ac-dictionary-directories "/home/shinya/.emacs.d//ac-dict")
+(ac-config-default)
 
 
 ;;Set C-h as Backspace
@@ -185,3 +188,6 @@
   (find-file-literally file-name)
   )
 (global-set-key "\M-n" 'current-tex-open)
+
+(autoload 'd-mode "d-mode" "Major mode for editing D code." t)
+(add-to-list 'auto-mode-alist '("\\.d[i]?\\'" . d-mode))
