@@ -39,27 +39,12 @@ Host tsukuba100
      HostName tsukuba100.intrigger.omni.hpcc.jp 
      User hayashi
 
-Host maxwell
-     HostName maxwell.ee.t.u-tokyo.ac.jp
-     Port 24816
-     User shayashi
-
 Host bell
      HostName bell.ee.t.u-tokyo.ac.jp
      User shayashi
 
-Host tesla
-     HostName tesla.ee.t.u-tokyo.ac.jp
-     Port 24816
-     User shayashi
-
 Host fleming
      HostName fleming.ee.t.u-tokyo.ac.jp
-     User shayashi
-
-Host escargot
-     HostName escargot.ee.t.u-tokyo.ac.jp
-     Port 24816
      User shayashi
 
 Host milkyway
@@ -116,14 +101,4 @@ Host oooka003
 Host dars
      HostName dars.eidos.ic.i.u-tokyo.ac.jp
      User t65017
-
-Host gauss
-     HostName gauss.ee.t.u-tokyo.ac.jp
-     Port 24816
-     User shayashi
-
-Host upload
-     HostName upload.ee.t.u-tokyo.ac.jp
-     Port 24816
-     User shayashi
 
