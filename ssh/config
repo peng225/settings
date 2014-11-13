@@ -1,104 +1,12 @@
-Host 133.11.58.70
-LocalForward 5281 vdec-cad1:5281
-LocalForward 10001 vdec-cad1:5280
-RemoteForward 10460 vdec-cad1:5281
+Host emperor
+     HostName emperor.midknight.dip.jp
+     User shinya
 
-Host kiwi
-     HostName kiwi.logos.ic.i.u-tokyo.ac.jp
-     User hayashi
+Host magellan
+     HostName magellan.midknight.dip.jp
+     User shinya
 
-Host minnie
-     HostName minnie.logos.ic.i.u-tokyo.ac.jp
-     User hayashi
-
-Host tuna
-     HostName tuna.logos.ic.i.u-tokyo.ac.jp
-     User hayashi
-
-Host tako
-     HostName tako.logos.ic.i.u-tokyo.ac.jp
-     User hayashi
-
-Host huscs000
-     HostName huscs000.iic.hokudai.ac.jp
-     User hayashi
-
-Host hosei000
-     HostName hosei000.intrigger.cis.k.hosei.ac.jp
-     User hayashi
-
-Host hongo400
-     HostName hongo400.logos.ic.i.u-tokyo.ac.jp 
-     User hayashi
-
-Host hongo200
-     HostName hongo200.logos.ic.i.u-tokyo.ac.jp 
-     User hayashi
-
-Host tsukuba100
-     HostName tsukuba100.intrigger.omni.hpcc.jp 
-     User hayashi
-
-Host bell
-     HostName bell.ee.t.u-tokyo.ac.jp
-     User shayashi
-
-Host fleming
-     HostName fleming.ee.t.u-tokyo.ac.jp
-     User shayashi
-
-Host milkyway
-     HostName milkyway.eidos.ic.i.u-tokyo.ac.jp
-     User hayashi
-
-Host milkywayd
-     HostName milkyway.eidos.ic.i.u-tokyo.ac.jp
-     DynamicForward localhost:10005
-     User hayashi
-
-Host milkyway-mail
-     HostName milkyway-mail.eidos.ic.i.u-tokyo.ac.jp
-     User hayashi
-
-Host milkyway-ns
-     HostName milkyway-ns.eidos.ic.i.u-tokyo.ac.jp
-     User hayashi
-
-Host lagoon
-     HostName lagoon.eidos.ic.i.u-tokyo.ac.jp
-     User hayashi
-
-Host oakleaf
-     HostName oakleaf-fx.cc.u-tokyo.ac.jp
-     User c64009
-     IdentityFile ~/.ssh/oakleaf
-
-Host lec-oakleaf
-     HostName oakleaf-fx.cc.u-tokyo.ac.jp
-     User t65017 
-  
-Host wheel-exp
-     HostName wheel-exp.elab.ic.i.u-tokyo.ac.jp
-     User shayashi
-
-Host wheel-expd
-     HostName wheel-exp.elab.ic.i.u-tokyo.ac.jp
-     DynamicForward localhost:10005
-     User shayashi
-
-Host leviathan
-     HostName leviathan.logos.ic.i.u-tokyo.ac.jp
-     User member
-
-Host oooka000
-     HostName oooka000.m.gsic.titech.ac.jp 
-     User hayashi
-
-Host oooka003
-     HostName oooka003.m.gsic.titech.ac.jp 
-     User hayashi
-
-Host dars
-     HostName dars.eidos.ic.i.u-tokyo.ac.jp
-     User t65017
+Host king
+     HostName king.midknight.dip.jp
+     User shinya
 
