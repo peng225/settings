@@ -10,3 +10,7 @@ Host king
      HostName king.midknight.dip.jp
      User shinya
 
+Host humboldt
+     HostName humboldt.midknight.dip.jp
+     User shinya
+
