@@ -59,10 +59,13 @@ alias cp='cp -i'
 alias vgxp='javaws ~/g2.jnlp'
 alias sl='ls'
 alias sdp='ssh -D localhost:10005'
-alias valgrind='valgrind -v --leak-check=full'
+# alias valgrind='valgrind -v --leak-check=full'
 alias gp='gnuplot'
 alias ll='ls -l'
 alias lh='ls -lh'
 alias la='ls -A'
 alias ls="ls --color"
+
+# wild cardをbashと同じように展開する
+unsetopt no_match
 
