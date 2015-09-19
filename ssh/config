@@ -14,3 +14,7 @@ Host humboldt
      HostName humboldt.midknight.dip.jp
      User shinya
 
+Host adelie
+     HostName adelie.midknight.dip.jp
+     User shinya
+
