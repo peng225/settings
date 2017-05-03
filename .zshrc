@@ -65,6 +65,7 @@ alias ll='ls -l'
 alias lh='ls -lh'
 alias la='ls -A'
 alias ls="ls --color"
+alias gopen="gnome-open"
 
 # wild cardをbashと同じように展開する
 unsetopt no_match

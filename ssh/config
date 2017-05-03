@@ -18,3 +18,7 @@ Host adelie
      HostName adelie.midknight.dip.jp
      User shinya
 
+Host virt-manager
+  HostName     192.168.1.10
+  IdentityFile .ssh/id_rsa_vrtmngr
+  User         root

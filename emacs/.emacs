@@ -48,7 +48,7 @@
 ;; (set-frame-width (next-frame) 40)
 
 ;;      
-(setq load-path (cons "~/.emacs.d" load-path))
+(setq load-path (cons "~/.emacs.d/lisp" load-path))
 
 
 ;;     
@@ -56,7 +56,7 @@
 ;; (require 'auto-complete-config)
 ;; (global-auto-complete-mode t)
 (require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "/home/shinya/.emacs.d//ac-dict")
+(add-to-list 'ac-dictionary-directories "/home/shinya/.emacs.d/lisp/ac-dict")
 (ac-config-default)
 
 
@@ -73,11 +73,11 @@
 (tool-bar-mode 0)
 
 ;; c-eldoc
-(require 'c-eldoc)
-(add-hook 'c-mode-hook 'c-turn-on-eldoc-mode)
+;; (require 'c-eldoc)
+;; (add-hook 'c-mode-hook 'c-turn-on-eldoc-mode)
 
 ; espresso-mode for jQuery
-(add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/lisp")
 (autoload #'espresso-mode "espresso" "Start espresso-mode" t)
 (add-to-list 'auto-mode-alist '("\\.js$" . espresso-mode))
 (add-to-list 'auto-mode-alist '("\\.json$" . espresso-mode))
