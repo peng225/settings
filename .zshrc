@@ -70,3 +70,6 @@ alias gopen="gnome-open"
 # wild cardをbashと同じように展開する
 unsetopt no_match
 
+# allow core dump output
+ulimit -c unlimited
+
