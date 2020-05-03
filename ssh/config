@@ -19,6 +19,6 @@ Host adelie
      User shinya
 
 Host virt-manager
-  HostName     192.168.1.10
+  HostName     192.168.2.10
   IdentityFile .ssh/id_rsa_vrtmngr
   User         root
