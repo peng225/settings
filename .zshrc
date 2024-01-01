@@ -73,3 +73,7 @@ unsetopt no_match
 # allow core dump output
 ulimit -c unlimited
 
+export SCREENDIR=$HOME/.screen
+export PATH=$PATH:$HOME/go/bin:$HOME/bin::/usr/local/go/bin
+
+source <(kubectl completion zsh)

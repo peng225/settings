@@ -1,24 +1,4 @@
 Host emperor
-     HostName emperor.midknight.dip.jp
+     HostName 192.168.10.10
      User shinya
 
-Host magellan
-     HostName magellan.midknight.dip.jp
-     User shinya
-
-Host king
-     HostName king.midknight.dip.jp
-     User shinya
-
-Host humboldt
-     HostName humboldt.midknight.dip.jp
-     User shinya
-
-Host adelie
-     HostName adelie.midknight.dip.jp
-     User shinya
-
-Host virt-manager
-  HostName     192.168.2.10
-  IdentityFile .ssh/id_rsa_vrtmngr
-  User         root
